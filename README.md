@@ -17,7 +17,7 @@ Below is the index of the 12 projects. Each link points directly to the live, op
 
 | # | Project Name | Personal Learning Goal & Tech Explored | Live Output Link |
 | :--- | :--- | :--- | :--- |
-| **01** | **Corporate Contact** | Mastering the HTML box-model, forms, and basic layouts. | [🌐 View Live Output](https://github.io01-corporate-contact/) |
+| **01** | **Corporate Contact** | Mastering the HTML box-model, forms, and basic layouts. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/01-corporate-contact/) |
 | **02** | **Company About-Us** | Exploring typography hierarchies and clean alignments. | [🌐 View Live Output](https://github.io02-company-about-us/) |
 | **03** | **WebDev Landing** | Transitioning into modern CSS Flexbox and structured sections. | [🌐 View Live Output](https://github.io03-webdev-landing/) |
 | **04** | **WebDev Landing-Animated**| Experimenting with CSS transitions to make a landing page dynamic. | [🌐 View Live Output](https://github.io04-webdev-landing-animated/) |
