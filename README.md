@@ -1,4 +1,3 @@
-
 # 💻 Early Frontend Exploration: A 12-Project Creative Coding Journey
 
 Welcome! This repository preserves a curated collection of **12 frontend web development projects** that I built entirely for fun during my **junior high school** years. 
@@ -49,5 +48,4 @@ Building these 12 modules allowed me to bridge the gap between technical logic a
 ├── 12-animated-404-ux-experience/
 └── README.md                     
 ```
-
-                                        Created By @SuryanshOps 
+                                          Created by @SuryanshOps
