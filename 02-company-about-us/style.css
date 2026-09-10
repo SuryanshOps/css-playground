@@ -1,1 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300&display=swap');
 
+/* ##################################### HEADER ########################################################### */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 10vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+}
+
+
+/* ################################################# NAVBAR ###################################################### */
+
+.header .navbar .logo,
+.header .navbar .nav-items a {
+    color: white;
+}
+
+.header .navbar .logo {
+    float: left;
+    padding-left: 55px;
+    padding-top: 35px;
+    font-size: x-large;
+}
+
+.header .navbar .nav-items {
+    float: right;
+    word-spacing: 20px;
+    padding-top: 35px;
+    padding-right: 0px;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.header .navbar .nav-item {
+    display: inline-block;
+}
+
+.header .navbar .nav-items a {
+    text-decoration: none;
+}
+
+.navbar {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header .navbar .nav-items .nav-item a:hover {
+    text-decoration: wavy underline white;
+}
+
+.lg-heading {
+    font-size: 2.25rem;
+    font-weight: normal;
+}
+
+
+/* ############################################ CONTAINER ########################################################### */
+
+.container {
+    height: 200px;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+p {
+    word-spacing: 10px;
+    font-size: small;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+/* ####################################################### ABOUT US ##################################################*/
+
+.about {
+    padding: 5rem 0;
+}
+
+.about-heading::after {
+    content: '';
+    display: block;
+    border: 3px solid #e63946;
+    width: 100%;
+}
+
+
+/* ######################################################### ABOUT WRAPPER ############################################# */
+
+.about-wrapper {
+    text-align: center;
+    height: 10rem;
+    padding: 2rem;
+}
+
+.about-wrapper::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.about-wrapper .left {
+    float: left;
+    width: 50%;
+}
+
+.about-wrapper .right {
+    float: right;
+    width: 50%;
+}
+
+.about-wrapper li::before {
+    content: '\2713';
+    color: #e63946;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.about-wrapper li {
+    list-style-type: none;
+}
+
+
+/* ############################################### COUNT STYLING ###################################################### */
+
+.count-item {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.counts::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+span {
+    color: #e63946;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.count-item p {
+    font-weight: 700;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.banner {
+    margin: 15rem;
+    min-width: 20%;
+    background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+    color: #f4f4ff;
+    padding-top: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    box-shadow: 5px 5px 10px #00000057;
+    height: 5rem;
+}
+
+.banner-left {
+    width: 60%;
+    float: left;
+}
+
+.banner-right {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+.banner::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner .banner-left p {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 1rem;
+    letter-spacing: 0.25rem;
+}
+
+.btn-banner {
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 4px solid white;
+    padding: 0.4rem 5.5rem;
+    margin-left: 1.5rem;
+    margin-right: 2.25rem;
+    letter-spacing: 0.5rem;
+    color: #f4f4ff;
+    text-decoration: none;
+}
