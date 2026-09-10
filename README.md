@@ -27,7 +27,7 @@ Below is the index of the 12 projects. Each link points directly to the live, op
 | **08** | **Immersive E-Com** | Combining CSS Grid systems with layered modal interactions. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/08-immersive-ecom/) |
 | **09** | **Todos Interface** | Crafting functional application dashboard layouts. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/09-todos-interface/) |
 | **10** | **Digital Room** | Pushing boundaries with abstract designs and layout spacing. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/10-digital-ecom/) |
-| **11** | **Gymcraft Responsive** | Implementing Mobile-First styling and responsive Media Queries. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/11-gameloft-responsive-redesign/) |
+| **11** | **Gameloft Responsive** | Implementing Mobile-First styling and responsive Media Queries. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/11-gameloft-responsive-redesign/) |
 | **12** | **Animated 404 Experience**| Transforming standard website errors into creative visual stories. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/12-animated-404-ux-experience/) |
 
 ---
