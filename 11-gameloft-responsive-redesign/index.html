@@ -1,698 +1,185 @@
-/* Google Fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
-
-/* 
-Selected Fonts: font-family: 'Work Sans', sans-serif;
-*/
-
-* {
-    margin: 0;
-    padding: 0;
-    user-select: none;
-}
-
-body {
-    font-family: 'Work Sans', sans-serif;
-}
-
-header {}
-
-
-/* Navbar Section */
-
-nav {
-    padding: 38px 0;
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-logo {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.logo {
-    width: 86.041px;
-    height: 6%;
-}
-
-.nav-title span {
-    color: #FF42A5;
-}
-
-.nav-title {
-    font-size: 45px;
-    font-weight: 700;
-}
-
-ul {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-}
-
-ul li {
-    list-style: none;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #3C354F;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.follow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    color: #3C354F;
-    font-size: 18px;
-    font-weight: 500;
-    width: 262px;
-    height: 56px;
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    flex-shrink: 0;
-}
-
-
-/* Hero Section */
-
-.hero {
-    display: flex;
-    /* justify-content: center; */
-    justify-content: space-between;
-    gap: 70px;
-    /* align-items: center;  */
-    height: 700px;
-}
-
-.hero-info {
-    background-image: url(./images/Group\ 14.png);
-    background-position: center;
-    background-size: cover;
-    height: 700px;
-    width: 100%;
-    padding-left: 240px;
-    display: flex;
-    align-items: center;
-}
-
-.hero-image {
-    padding-right: 240px;
-}
-
-.title-1 {
-    color: #0B0223;
-    font-size: 48px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.title-2 {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 95px;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-bottom: 24px;
-}
-
-.highlights p {
-    display: flex;
-    gap: 12px;
-    color: #534C64;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 17px;
-}
-
-.btn-group {
-    display: flex;
-    gap: 50px;
-    margin-top: 40px;
-}
-
-.btn-primary {
-    border: none;
-    padding: 21px 40px;
-    border-radius: 48px;
-    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.btn2 {
-    background: #4EC5F7;
-}
-
-
-/* We are gamer Section */
-
-.we-are-gamer {
-    /* height: 600px; */
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-    padding: 55px 240px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 52px;
-}
-
-.wegame-info {
-    text-align: right;
-}
-
-.wegame-title {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 24px;
-}
-
-.wegame-description {
-    width: 520px;
-    color: #534C64;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 32px;
-}
-
-.wegame-btn {
-    font-size: 15px;
-    margin-bottom: 24px;
-}
-
-.quote {
-    width: 520px;
-    color: #534C64;
-    font-family: Work Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 45px;
-}
-
-
-/* Online Games */
-
-.online-games {
-    margin: 120px 0;
-    padding: 0 240px;
-}
-
-.og-titles {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.og-titles h2 {
-    color: #0B0223;
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.og-titles h2 span {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 16px;
-}
-
-.og-titles p {
-    color: #534C64;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.og-cards {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-}
-
-.og-img {
-    border-radius: 16px;
-    margin-bottom: 24px;
-}
-
-.og-card {
-    width: 342px;
-    color: #534C64;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    position: relative;
-}
-
-.og-card-img {
-    /* width: 342px; */
-}
-
-.content {
-    width: 338px;
-    height: 393px;
-    border-radius: 16px;
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.6s;
-    opacity: 0;
-    background-color: rgba(61, 60, 60, 0.877);
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-align: center;
-    border: 4px solid var(--Linear, #FF42A5);
-}
-
-.og-card:hover>.content {
-    opacity: 1;
-}
-
-
-/* Play Instant */
-
-.play-instant {
-    display: flex;
-    gap: 220px;
-    justify-content: end;
-    align-items: center;
-    padding: 0 240px;
-    margin-bottom: 220px;
-}
-
-.play-info h2 {
-    color: #0B0223;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    text-align: right;
-    width: 400px;
-    margin-bottom: 24px;
-}
-
-.play-info h2 span {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    text-align: right;
-}
-
-.play-info p {
-    width: 353px;
-    color: #534C64;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: right;
-}
-
-.play-images {
-    display: flex;
-    position: relative;
-}
-
-.play-img1 {
-    width: 630px;
-    height: 650px;
-    border-radius: 8px;
-}
-
-.play-img2 {
-    width: 318.5px;
-    height: 365.083px;
-    position: absolute;
-    top: 350px;
-    left: -150px;
-}
-
-.pg-img2 {
-    top: 450px;
-    left: 450px;
-}
-
-.pg-info h2 {
-    text-align: start;
-}
-
-.pg-info p {
-    text-align: start;
-}
-
-
-/* play-games */
-
-.play-games {
-    flex-direction: row-reverse;
-}
-
-
-/* careers */
-
-.careers {
-    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.career-info {
-    padding-left: 240px;
-}
-
-.career-info h2 {
-    /* width: 426px; */
-    color: #FFF;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60px;
-    margin-bottom: 24px;
-}
-
-.career-info>p {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 34px;
-}
-
-.career-lists {
-    display: flex;
-    gap: 40px;
-}
-
-.list {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 40px;
-}
-
-.list2 {
-    text-align: right;
-}
-
-.career-img {
-    /* width: 100%; */
-}
-
-
-/* game-types */
-
-.game-types {
-    padding: 120px 200px;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-}
-
-.game {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    background-color: #fff;
-    width: 250px;
-    height: 80px;
-    border-radius: 50px;
-    /* transition: .6s; */
-}
-
-.game:hover {
-    border: 1px solid #FF42A5;
-}
-
-.game:hover p {
-    color: #FF42A5;
-    transition: .3s;
-}
-
-.game p {
-    color: #0B0223;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.game-types {
-    margin: 0 auto;
-    display: flex;
-    gap: 27px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-footer {
-    padding: 120px 0;
-    background: #0B0223;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-}
-
-.edited {
-    color: white;
-}
-
-.end-menu {
-    display: flex;
-    gap: 60px;
-}
-
-.end-menu p {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-.rules p {
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.conclusion {
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
-    font-weight: 500;
-}
-
-
-/* Mobile Responsive Starts */
-
-@media screen and (max-width: 425px) {
-    /* Navbar Mobile Responsive */
-    nav {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 62px;
-        margin-bottom: 190px;
-    }
-    ul {
-        flex-direction: column;
-    }
-    /* Hero Section Mobile Responsive */
-    .hero {
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        padding: 0 40px;
-    }
-    .hero-img {
-        width: 100%;
-    }
-    .hero-image {
-        padding-right: 0;
-    }
-    .hero-info {
-        padding-left: 0;
-    }
-    .info-parent {
-        padding: 100px 50px;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-content: center;
-    }
-    .title-1 {
-        font-size: 25px;
-        text-align: center;
-    }
-    .title-2 {
-        font-size: 50px;
-        text-align: center;
-        margin-bottom: 24px;
-    }
-    .highlights p {
-        display: flex;
-        gap: 12px;
-        color: #534C64;
-        font-size: 17px;
-        font-weight: 500;
-        margin-bottom: 17px;
-    }
-    .btn-group {
-        display: flex;
-        /* gap: 40px; */
-        margin-top: 40px;
-    }
-    .btn-primary {
-        border: none;
-        padding: 18px 20px;
-        border-radius: 48px;
-        background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
-        color: #FFF;
-        font-size: 14px;
-        font-weight: 500;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-    }
-    /* We Are Gamer Mobile Responsive */
-    .we-are-gamer {
-        flex-direction: column;
-        margin-top: 137px;
-        text-align: center;
-        padding: 40px 0;
-        background-image: none;
-    }
-    .wegame-image {
-        display: none;
-    }
-    .gamer-img {
-        /* width: 100%; */
-    }
-    .wegame-info {
-        text-align: center;
-    }
-    .wegame-title {
-        font-size: 28px;
-        font-weight: 700;
-        margin-bottom: 24px;
-    }
-    .wegame-description {
-        width: 350px;
-        margin: 0 auto;
-        color: #534C64;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30px;
-        margin-bottom: 32px;
-    }
-    .quote {
-        width: 380px;
-        font-size: 24px;
-        font-size: 20px;
-    }
-    /* Online Games */
-    .online-games {
-        margin: 120px 0;
-        padding: 0 40px;
-    }
-    .og-titles p {
-        padding: 0 20px;
-        font-size: 14px;
-    }
-    .og-cards {
-        flex-direction: column;
-        gap: 24px;
-        justify-content: center;
-    }
-    /* Play Instant */
-    .play-instant {
-        padding: 0 80px;
-        flex-direction: column;
-        justify-content: center;
-        gap: 50px;
-    }
-    .play-info h2 {
-        text-align: center;
-    }
-    .play-info p {
-        text-align: center;
-    }
-    .play-img1 {
-        width: 100%;
-        height: 100%;
-    }
-    .play-img2 {
-        width: 80%;
-        height: 80%;
-        top: 150px;
-        left: -50px;
-    }
-    .pg-img2 {
-        top: 150px;
-        left: 100px;
-    }
-    .careers {
-        flex-direction: column;
-    }
-    .career-info {
-        padding: 0 40px;
-    }
-    .career-img {
-        width: 100%;
-    }
-    .career-lists {
-        gap: 20px;
-    }
-    .list {
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 40px;
-    }
-    /* Footer */
-    footer {
-        padding: 100px 0;
-    }
-    .end-menu {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* gap: 60px; */
-    }
-    .conclusion {
-        text-align: center;
-    }
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document 6</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icon -->
+    <script src="https://kit.fontawesome.com/a8e2726981.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="./download.png" class="logo" alt="">
+                <h1 class="nav-title"><span>Games</span> Loft</h1>
+            </div>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Developers</a></li>
+                <div class="follow">
+                    <p>Follow Us On</p>
+                    <i class="fa-brands fa-youtube" style="color: #F61C0D;"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+
+        <section class="hero">
+            <div class="hero-info">
+                <div class="info-parent">
+                    <h2 class="title-1">Play Like The</h2>
+                    <h2 class="title-2">G.O.A.T.</h2>
+                    <div class="highlights">
+                        <p><i class="fa-regular fa-circle-play" style="color: #FF42A5;"></i> 1-Click instant play
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-download" style="color: #ff42a5;"></i> No Download
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-user-group" style="color: #ff42a5;"></i> 1000s of supported online games
+                        </p>
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn-primary">
+                            Sign In
+                        </button>
+                        <button class="btn-primary btn2">
+                            Go Rogue
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./download.jpg" class="hero-img" alt="">
+            </div>
+        </section>
+
+    </header>
+
+    <section class="we-are-gamer">
+        <div class="wegame-image">
+            <img src="./download (1).jpg" class="gamer-img" style="width: 100%;">
+        </div>
+        <div class="wegame-info">
+            <h2 class="wegame-title">We are gamer</h2>
+            <p class="wegame-description">
+                An international digital games and entertainment company. We develop, publish and distribute multiplayer mobile games. We reach over 400 million players each month and our audience keeps growing.
+            </p>
+            <button class="btn-primary wegame-btn">Know More</button>
+            <p class="quote">Our purpose... <br>
+                <span>“unleash the gamer in everyone”</span></p>
+        </div>
+    </section>
+
+
+    <section class="play-instant">
+        <div class="play-info">
+            <h2><span>Play Instantly,</span> No Downloads No Installs.
+            </h2>
+            <p>
+                Play games online for free without downloading. Just click the Play button and play instantly in your browser.
+            </p>
+        </div>
+        <div class="play-images">
+            <img src="./games_streaming.webp" class="play-img1" alt="">
+            <img src="./index-gamess-64063ac9d5233.jpg" class="play-img2" alt="">
+        </div>
+    </section>
+
+    <!-- play-games -->
+
+    <section class="play-instant play-games">
+        <div class="play-info pg-info">
+            <h2><span>Play Games Online</span> Anywhere, Anytime!
+            </h2>
+            <p>
+                Play games online for free without downloading. Just click the Play button and play instantly in your browser.
+            </p>
+        </div>
+        <div class="play-images">
+            <img src="./07sBMitXcz0UXdYU6LowlQt-2.webp" class="play-img1" alt="">
+            <img src="./A_selection_of_Roblox_games.png" class="play-img2 pg-img2" alt="">
+        </div>
+    </section>
+
+    <section class="game-types">
+        <div class="game">
+
+            <p>Action Games</p>
+        </div>
+        <div class="game">
+
+            <p>Adventure Games</p>
+        </div>
+        <div class="game">
+
+            <p>Arcade Games</p>
+        </div>
+        <div class="game">
+
+            <p>Educational Games</p>
+        </div>
+        <div class="game">
+
+            <p>Word Games</p>
+        </div>
+        <div class="game">
+
+            <p>Role Palying Games</p>
+        </div>
+        <div class="game">
+
+            <p>Music & Audio Games</p>
+        </div>
+        <div class="game">
+
+            <p>Puzzle Games</p>
+        </div>
+        <div class="game">
+
+            <p>Strategy Games</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="nav-logo edited">
+            <img src="./download.png" class="logo" alt="">
+            <h1 class="nav-title"><span>Games</span> Loft</h1>
+        </div>
+        <div class="end-menu">
+            <p>Our Story</p>
+            <p>Games</p>
+            <p>Web Games</p>
+            <p>Careers</p>
+            <p>Support</p>
+            <p>My Account</p>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-youtube" style="color:white"></i>
+            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-apple" style="color: #ffffff;"></i>
+        </div>
+        <div class="end-menu rules">
+            <p>Terms and Conditions</p>
+            <p>Privacy Policy</p>
+            <p>Privacy Policy</p>
+            <p>Privacy Policy</p>
+        </div>
+        <p class="conclusion">
+            Play Games @ Gamer @ 2000-2023 Gamer Bangladesh
+        </p>
+    </footer>
+
+</body>
+
+</html>
