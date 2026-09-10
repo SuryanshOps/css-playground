@@ -50,4 +50,4 @@ Building these 12 modules allowed me to bridge the gap between technical logic a
 └── README.md                     
 ```
 
-                                                              <center> Created By @SuryanshOps </center>
+                                        Created By @SuryanshOps 
