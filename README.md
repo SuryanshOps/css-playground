@@ -4,10 +4,6 @@ Welcome! This repository preserves a curated collection of **12 frontend web dev
 
 What started as a personal curiosity to see how websites work turned into a deep dive into semantic structures, responsive layouts, and modern CSS animation mechanics. These files capture my early self-taught learning curve and foundational passion for computer science.
 
-## 🚀 Live Interactive Outputs
-> [!TIP]
-> You can interact with the live deployed versions of all 12 projects instantly without running any code locally.
-> 👉 **[Click Here to Explore the Live Portfolio Hub](https://github.io)**
 
 ---
 
