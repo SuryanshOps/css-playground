@@ -48,4 +48,4 @@ Building these 12 modules allowed me to bridge the gap between technical logic a
 ├── 12-animated-404-ux-experience/
 └── README.md                     
 ```
-                                          Created by @SuryanshOps
+                          Created by @SuryanshOps
