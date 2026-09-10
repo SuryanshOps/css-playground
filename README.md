@@ -18,17 +18,17 @@ Below is the index of the 12 projects. Each link points directly to the live, op
 | # | Project Name | Personal Learning Goal & Tech Explored | Live Output Link |
 | :--- | :--- | :--- | :--- |
 | **01** | **Corporate Contact** | Mastering the HTML box-model, forms, and basic layouts. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/01-corporate-contact/) |
-| **02** | **Company About-Us** | Exploring typography hierarchies and clean alignments. | [🌐 View Live Output](https://github.io02-company-about-us/) |
-| **03** | **WebDev Landing** | Transitioning into modern CSS Flexbox and structured sections. | [🌐 View Live Output](https://github.io03-webdev-landing/) |
-| **04** | **WebDev Landing-Animated**| Experimenting with CSS transitions to make a landing page dynamic. | [🌐 View Live Output](https://github.io04-webdev-landing-animated/) |
-| **05** | **Animated Auth** | Designing micro-interactions for a secure and smooth login UI. | [🌐 View Live Output](https://github.io05-animated-auth/) |
-| **06** | **Travel Motion Landing** | Exploring creative background animations and hover effects. | [🌐 View Live Output](https://github.io06-travel-motion-landing/) |
-| **07** | **Product Card** | Component-driven styling mimicking realistic e-commerce elements. | [🌐 View Live Output](https://github.io07-product-card/) |
-| **08** | **Immersive E-Com** | Combining CSS Grid systems with layered modal interactions. | [🌐 View Live Output](https://github.io08-immersive-e-com/) |
-| **09** | **Todos Interface** | Crafting functional application dashboard layouts. | [🌐 View Live Output](https://github.io09-todos-interface/) |
-| **10** | **Digital Room** | Pushing boundaries with abstract designs and layout spacing. | [🌐 View Live Output](https://github.io10-digital-room/) |
-| **11** | **Gymcraft Responsive** | Implementing Mobile-First styling and responsive Media Queries. | [🌐 View Live Output](https://github.io11-gymcraft-responsive-redesign/) |
-| **12** | **Animated 404 Experience**| Transforming standard website errors into creative visual stories. | [🌐 View Live Output](https://github.io12-animated-404-ux-experience/) |
+| **02** | **Company About-Us** | Exploring typography hierarchies and clean alignments. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/02-company-about-us/) |
+| **03** | **WebDev Landing** | Transitioning into modern CSS Flexbox and structured sections. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/03-webdev-landing/) |
+| **04** | **WebDev Landing-Animated**| Experimenting with CSS transitions to make a landing page dynamic. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/04-webdev-landing-animated/) |
+| **05** | **Animated Auth** | Designing micro-interactions for a secure and smooth login UI. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/05-animated-auth/) |
+| **06** | **Travel Motion Landing** | Exploring creative background animations and hover effects. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/06-travel-motion-landing/) |
+| **07** | **Product Card** | Component-driven styling mimicking realistic e-commerce elements. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/07-product-card/) |
+| **08** | **Immersive E-Com** | Combining CSS Grid systems with layered modal interactions. | [🌐 View Live Output](https://SuryanshOps.github.io/css-playground/08-immersive-ecom/) |
+| **09** | **Todos Interface** | Crafting functional application dashboard layouts. | [🌐 View Live Output](ttps://SuryanshOps.github.io/css-playground/09-todos-interface/) |
+| **10** | **Digital Room** | Pushing boundaries with abstract designs and layout spacing. | [🌐 View Live Output](ttps://SuryanshOps.github.io/css-playground/10-digital-ecom/) |
+| **11** | **Gymcraft Responsive** | Implementing Mobile-First styling and responsive Media Queries. | [🌐 View Live Output](ttps://SuryanshOps.github.io/css-playground/11-gameloft-responsive-redesign/) |
+| **12** | **Animated 404 Experience**| Transforming standard website errors into creative visual stories. | [🌐 View Live Output](ttps://SuryanshOps.github.io/css-playground/12-animated-404-ux-experience/) |
 
 ---
 
