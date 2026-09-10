@@ -233,7 +233,7 @@ p {
 /* Hero Section */
 
 #hero {
-    background-image: url(./computer-laptop-email_061750.jpg);
+    background-image: url("./computer-laptop-email_061750.jpg");
     background-size: cover;
     background-position: top center;
     position: relative;
